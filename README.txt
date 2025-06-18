@@ -98,3 +98,9 @@ Access the API documentation at:
     Swagger UI: http://localhost:8000/api/schema/swagger-ui/
 
     ReDoc: http://localhost:8000/api/schema/redoc/
+
+7. Run tests:
+
+    You can run the project tests using pytest:
+
+    pytest
