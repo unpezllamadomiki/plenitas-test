@@ -74,23 +74,27 @@ Base URL: `/api/devices/`
 
 2. Create and activate a virtual environment:
 
-    python -m venv .venv
+    ```python -m venv .venv
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3. Install dependencies:
 
+    ```
     pip install -r requirements.txt
 
 4. Apply migrations:
 
+    ```
     python manage.py migrate
 
 5. Create a superuser (optional, for admin access):
 
+    ```
     python manage.py createsuperuser
 
 6. Run the development server:
 
+    ```
     python manage.py runserver
 
 Access the API documentation at:
@@ -103,4 +107,5 @@ Access the API documentation at:
 
     You can run the project tests using pytest:
 
+    ```
     pytest
